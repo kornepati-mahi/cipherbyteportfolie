@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>portfolie</title>
+    <link rel="icon" href="icon.jpeg" type="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">portfolie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="toggle">
+                    <i class="bi bi-sun-fill" id="darkmode"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="content">
+            <p id="time"></p>
+            <p id="date"></p>
+        </div>
+    </section>
+
+    <section class="infomation">
+        <div class="info">
+            <h1>hello</h1>
+            <h2>i`m mahankali</h2>
+            <span id="colorchange">i am a <span id="changetxt"></span></span>
+            <p>A passionate full stack software developer having<br>
+                an exprience of builaing web and mobile application<br>
+                with HTML/CSS/JAVASCRIPT /REACTJS/NODEJS/<br>
+                some other cool librariesn and framewworks</p>
+            <button id="btn">hire me</button>
+            <a href="mysql.png" download="myspl.png"><button id="cvbtn">cv download</button></a>
+        </div>
+        <div class="img">
+            <img src="fristpic.png" alt="">
+        </div>
+    </section><br><br>
+
+    <section class="skills">
+        <div class="skillinfo">
+            <h1>my skills</h1>
+            <p>I am a skilled and passionate WebDeveloper with exprience creating visualy appealing<br>and user-friendly
+                websites.
+                i am proficient in HTML5,CSS3,BOOTSTRAP,JAVASCRIPT,<br>
+                REACT JS,MATERIAL UI And little bit of MYSQL Database.</p>
+        </div>
+        <div class="imgshow">
+            <div class="skillcard">
+                <img src="html.png" alt="html" class="html">
+                <span>html</span>
+            </div>
+            <div class="skillcard">
+                <img src="css.png" alt="css" class="css">
+                <span>css</span>
+            </div>
+            <div class="skillcard">
+                <img src="java.png" alt="javascript">
+                <span>javascript</span>
+            </div>
+            <div class="skillcard">
+                <img src="boots.png" alt="bootstrap">
+                <span>bootstrap</span>
+            </div>
+            <div class="skillcard">
+                <img src="react.png" alt="react">
+                <span>react js</span>
+            </div>
+            <div class="skillcard">
+                <img src="mysql.png" alt="myspl">
+                <span>myspl</span>
+            </div>
+        </div>
+    </section><br><br>
+
+
+    <footer>
+        <p>&copy;kornepati mahankali</p>
+    </footer>
+
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '60px',
+            duration: 2500,
+            delay: 300
+        });
+        ScrollReveal().reveal('.main', { delay: 300, origin: 'left', interval: 400 });
+        ScrollReveal().reveal('.info', { delay: 400, origin: 'left', interval: 400 });
+        ScrollReveal().reveal('.img', { delay: 300, origin: 'right' });
+        ScrollReveal().reveal('.skillinfo', { delay: 400, origin: 'top' });
+        // ScrollReveal().reveal('.imgshow', { delay: 400 , origin:'left', interval:100});
+    </script>
+     
+     <script src="intershipe.js"></script>
+</body>
+
+</html>

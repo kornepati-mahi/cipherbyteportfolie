@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>portfolie</title>
+    <link rel="icon" href="icon.jpeg" type="icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">portfolie</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="project.html">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="toggle">
+                    <i class="bi bi-sun-fill" id="darkmode"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about">
+        <div class="aboutinfo">
+            <h1>about me</h1>
+            <ul>
+                <li>
+                    <p>i am mahankali kornepati.i am form andhara<br> pradesh
+                        in palnadu district at
+                        GOGOLAPADU</p>
+                </li>
+                <li>
+                    <p>I completed my Bachelor`s degree in vagdevi<br>
+                        degree college, Narasaraopet in 2023 auguest in<br>
+                        the stream of B.sc (computer science)<br>
+                        Graaduated with a CGPA of 71%</p>
+                </li>
+            </ul>
+        </div>
+        <div class="aboutimg">
+            <img src="second pic.jpeg" alt="img">
+        </div>
+    </section><br><br>
+
+    <section class="skillsanimationinfo">
+        <div class="skillsheadinginfo">
+            <h1>skills</h1>
+        </div><br><br>
+        <div class="animation">
+            <div class="scrollskills">
+                <img src="html.png" alt="html">
+                <img src="css.png" alt="css">
+                <img src="java.png" alt="java">
+                <img src="boots.png" alt="boots">
+                <img src="react.png" alt="react">
+                <img src="mysql.png" alt="mysql">
+            </div>
+            <div class="scrollskills">
+                <img src="html.png" alt="html">
+                <img src="css.png" alt="css">
+                <img src="java.png" alt="java">
+                <img src="boots.png" alt="boots">
+                <img src="react.png" alt="react">
+                <img src="mysql.png" alt="mysql">
+            </div>
+        </div>
+    </section><br><br>
+
+    <section class="achivementsinfo">
+        <div class="achivement">
+            <h1>Achievements</h1><br>
+            <ul>
+                <li>
+                    <p>I received a certificate from Lyfaux.</p>
+                </li>
+                <li>
+                    <p>I completed the CODSOFT INTERNSHIP training<br>
+                        program and also received a certificate from it.</p>
+                </li>
+                <li>
+                    <p>I completed the TCS YOUTH EMPLOYMENT training program at my<br> college
+                        and also received a certificate from it.</p>
+                </li>
+            </ul>
+        </div>
+    </section><br><br>
+
+    <section class="strenghtinfo">
+        <div class="Strenght">
+            <h1>Strenghts</h1>
+            <ul>
+                <li>
+                    <p>Good Patience.</p>
+                </li>
+                <li>
+                    <p>I never give up when the problem in difficult.</p>
+                </li>
+                <li>
+                    <p>Quick learner</p>
+                </li>
+            </ul>
+        </div>
+    </section><br><br>
+
+    <footer>
+        <p>&copy;kornepati mahankali</p>
+    </footer>
+    <script src="intershipe.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        ScrollReveal({ 
+            reset: true,
+            distance:'60px',
+            duration:2500,
+            delay:300
+         });
+         ScrollReveal().reveal('.aboutinfo', { delay: 400 ,origin:'left', interval:500});
+        //  ScrollReveal().reveal('.aboutimg', { delay: 400 ,origin:'right', interval:500});
+         ScrollReveal().reveal('.skillsheadinginfo', { delay: 400 ,origin:'top', interval:200});
+         ScrollReveal().reveal('.achivementsinfo', { delay: 300 ,origin:'left', interval:300});
+         ScrollReveal().reveal('.strenghtinfo', { delay: 200 ,origin:'left', interval:500});
+    </script>
+</body>
+
+</html>
